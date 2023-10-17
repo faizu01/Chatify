@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-image: linear-gradient(rgb(172 135 135), rgb(111 119 180));
+    height: 100vh;
+
+}
+
+#navigation {
+    text-align: center;
+}
+
+#navigation img {
+    width: 150px;
+    height: 150px;
+}
+
+h1{
+    margin-top: -31px;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/*Chat area css starts here*/
+#chatArea {
+    
+    max-width: 900px;
+    border: 2px solid black;
+    border-radius: 23px;
+    margin: auto;
+    height: 60vh;
+    overflow:auto;
+    /*for scrooling*/
+
+}
+
+/* .container:empty {
+    display: none;
+} */
+
+.left {
+    float: left;
+    clear: both;
+    background-color: rgb(209, 209, 209);
+    border-radius: 8px;
+    margin: 17px 24px;
+    padding: 10px 20px;
+    border: 2px solid black;
+
+}
+
+.right {
+    float: right;
+    clear: both;
+    background-color: rgb(143, 255, 98);
+    border-radius: 8px;
+    margin: 17px 24px;
+    padding: 10px 20px;
+    border: 2px solid black;
+}
+
+
+/*Form css starts here*/
+#send-container {
+    display: flex;
+    justify-content: center; /* Horizontally center-align */
+    align-items: center; /* Vertically center-align */
+    margin: 10px 5px; /* Add some margin if needed */
+}
+
+
+#message-input{
+  
+
+    margin-right:5px;
+    width: 750px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 16px;
+    font-size: 20px;
+
+}
+
+.btn {
+   
+    width: 100px;
+    padding: 10px;
+    background: pink;
+    border-radius: 8px;
+
+}
+
+.btn:hover {
+    color: red;
+}

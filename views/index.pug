@@ -1,0 +1,19 @@
+extends base.pug
+block style 
+    style 
+        include ../static/style.css
+    
+    script(defer src='/socket.io/socket.io.js')
+    script(defer src= '../static/index.js')
+     
+block content 
+        nav#navigation
+            img(src="../static/img/Logo.png", alt="Loading...")
+            h1 Welcome to ichat App
+        section#chatArea
+            div.container
+                
+                  
+        form#send-container(action='#')          
+                input#message-input(type='text' name='messageinput' placeholder="Type your message here")
+                button.btn(type='submit') Send
